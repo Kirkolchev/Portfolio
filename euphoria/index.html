@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson 19</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container">
+            <img class="header__logo" src="img/Logo.svg" alt="logo">
+            <div class="header__menu menu">
+               <div class="menu__body">
+                  <ul class="menu__list">
+                     <li class="menu__item menu__item--active"><a href="#" class="menu__link">Shop</a>
+                     </li>
+                     <li class="menu__item"><a href="#" class="menu__link">Men</a></li>
+                     <li class="menu__item"><a href="#" class="menu__link">Women</a></li>
+                     <li class="menu__item"><a href="#" class="menu__link">Combos</a>
+                        <div class="sub-menu">
+                           <ul class="sub-menu__list">
+                              <li class="sub-menu__item">
+                                 <a href="#" class="sub-menu__link">Product #1</a>
+                              </li>
+                              <li class="sub-menu__item">
+                                 <a href="#" class="sub-menu__link">Product #2</a>
+                              </li>
+                              <li class="sub-menu__item">
+                                 <a href="#" class="sub-menu__link">Product #3</a>
+                              </li>
+                              <li class="sub-menu__item">
+                                 <a href="#" class="sub-menu__link">Product #4</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </li>
+                     <li class="menu__item"><a href="#" class="menu__link">Joggers</a></li>
+                  </ul>
+               </div>
+            </div>
+
+            <div class="header__actions actions-header">
+               <a class="actions-header__item" href="#"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M9.99486 4.93014C8.49535 3.18262 5.99481 2.71255 4.11602 4.31275C2.23723 5.91295 1.97273 8.5884 3.44815 10.481C4.67486 12.0545 8.38733 15.3732 9.60407 16.4474C9.7402 16.5675 9.80827 16.6276 9.88766 16.6512C9.95695 16.6718 10.0328 16.6718 10.1021 16.6512C10.1815 16.6276 10.2495 16.5675 10.3857 16.4474C11.6024 15.3732 15.3149 12.0545 16.5416 10.481C18.017 8.5884 17.7848 5.89611 15.8737 4.31275C13.9626 2.72938 11.4944 3.18262 9.99486 4.93014Z"
+                        stroke="#807D7E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+               </a>
+               <a class="actions-header__item" href="#"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M9.99992 11.6667C12.3011 11.6667 14.1666 9.8012 14.1666 7.50001C14.1666 5.19882 12.3011 3.33334 9.99992 3.33334C7.69873 3.33334 5.83325 5.19882 5.83325 7.50001C5.83325 9.8012 7.69873 11.6667 9.99992 11.6667ZM9.99992 11.6667C6.31802 11.6667 3.33325 13.9053 3.33325 16.6667M9.99992 11.6667C13.6818 11.6667 16.6666 13.9053 16.6666 16.6667"
+                        stroke="#807D7E" stroke-width="1.5" stroke-linecap="round" />
+                  </svg>
+               </a>
+               <a class="actions-header__item" href="#">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M2.5 3.33334H3.00526C3.85578 3.33334 4.56986 3.97376 4.6621 4.81926L5.3379 11.0141C5.43014 11.8596 6.14422 12.5 6.99474 12.5H14.205C14.9669 12.5 15.6317 11.9834 15.82 11.2452L16.9699 6.73593C17.2387 5.68213 16.4425 4.65742 15.355 4.65742H5.5M5.52063 15.5208H6.14563M5.52063 16.1458H6.14563M14.6873 15.5208H15.3123M14.6873 16.1458H15.3123M6.66667 15.8333C6.66667 16.2936 6.29357 16.6667 5.83333 16.6667C5.3731 16.6667 5 16.2936 5 15.8333C5 15.3731 5.3731 15 5.83333 15C6.29357 15 6.66667 15.3731 6.66667 15.8333ZM15.8333 15.8333C15.8333 16.2936 15.4602 16.6667 15 16.6667C14.5398 16.6667 14.1667 16.2936 14.1667 15.8333C14.1667 15.3731 14.5398 15 15 15C15.4602 15 15.8333 15.3731 15.8333 15.8333Z"
+                        stroke="#807D7E" stroke-width="1.5" stroke-linecap="round" />
+                  </svg>
+               </a>
+               <button class="icon-menu">
+                  <span></span>
+               </button>
+            </div>
+         </div>
+      </header>
+      <main class="page">
+         <div class="page__hero hero">
+            <div class="hero__container">
+               <div class="hero__content">
+                  <div class="hero__item item-hero">
+                     <img class="item-hero__image item-hero__image--color " src="img/girl__hero.png" alt="girl">
+                     <div class="item-hero__body">
+                        <div class="item-hero__subtitle">Low Price</div>
+                        <h3 class="item-hero__title">High Coziness</h3>
+                        <div class="item-hero__discont">UPTO 50% OFF</div>
+                        <a class="item-hero__link" href="#">Explore Items</a>
+                     </div>
+                  </div>
+                  <div class="hero__item item-hero">
+                     <img class="item-hero__image" src="img/girl-hero-2.webp" alt="girl">
+                     <div class="item-hero__body">
+                        <div class="item-hero__subtitle">Beyoung Presents</div>
+                        <h3 class="item-hero__title">Breezy Summer
+                           Style</h3>
+                        <div class="item-hero__discont">UPTO 50% OFF</div>
+                        <a class="item-hero__link" href="#">Explore Items</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="page__arrial arrial">
+            <div class="arrial__container">
+               <h3 class="arrial__title">New Arrival</h3>
+               <div class="arrial__body body-arrial">
+                  <button class="body-arrial__arow-left"></button>
+                  <div class="body-arrial__blok box-arrial">
+                     <div class="box-arrial__item item-arrial">
+                        <a class="item-arrial__link" target="_blank" href="#"> <img class="item-arrial__img"
+                              src="img/arrival-01.webp" alt="Joggers"></a>
+                        <div class="item-arrial__text">
+                           <a class="item-arrial__link-text" target="_blank" href="#">Knitted Joggers</a>
+                        </div>
+                     </div>
+                     <div class="box-arrial__item item-arrial">
+                        <a class="item-arrial__link" target="_blank" href="#"> <img class="item-arrial__img"
+                              src="img/arrival-02.webp" alt="Joggers"></a>
+                        <div class="item-arrial__text">
+                           <a class="item-arrial__link-text" target="_blank" href="#">Full Sleeve</a>
+                        </div>
+                     </div>
+                     <div class="box-arrial__item item-arrial">
+                        <a class="item-arrial__link" target="_blank" href="#"> <img class="item-arrial__img"
+                              src="img/arrival-03.webp" alt="Joggers"></a>
+                        <div class="item-arrial__text">
+                           <a class="item-arrial__link-text" target="_blank" href="#">Active T-Shirts</a>
+                        </div>
+                     </div>
+                     <div class="box-arrial__item item-arrial">
+                        <a class="item-arrial__link" target="_blank" href="#"> <img class="item-arrial__img"
+                              src="img/arrival-04.webp" alt="Joggers"></a>
+                        <div class="item-arrial__text">
+                           <a class="item-arrial__link-text" target="_blank" href="#">Urban Shirts</a>
+                        </div>
+                     </div>
+                  </div>
+                  <button class="body-arrial__arow-right"></button>
+               </div>
+            </div>
+         </div>
+         <div class="page__zone zone">
+            <div class="zone__container">
+               <h3 class="zone__title">Big Saving Zone</h3>
+               <div class="zone__items ">
+                  <div class="zone__item item-zone item-zone--text-left item-zone--color-white">
+                     <div class="item-zone__content">
+                        <div class="item-zone__body">
+                           <h5 class="item-zone__title">Hawaiian
+                              Shirts</h5>
+                           <p class="item-zone__text">Dress up in summer vibe</p>
+                           <span class="item-zone__discont">UPTO 50% OFF</span>
+                        </div>
+                        <a target="_blank" class="item-zone__link " href="#">
+                           <svg class="item-zone__arow" width="22.872559" height="25.787842" viewBox="0 0 22.8726 25.7878"
+                              fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                              <desc>
+                                 Created with Pixso.
+                              </desc>
+                              <defs />
+                              <path id="arrow"
+                                 d="M11.43 1L11.43 23.6M21.86 14.9L12.66 24.11C11.98 24.79 10.88 24.79 10.2 24.11L1 14.9"
+                                 stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="2.000000" />
+                           </svg>
+                           <span class="item-zone__shrits"> SHOP NOW</span>
+                        </a>
+                     </div>
+                     <img class="item-zone__image" src="img/hawaian.webp" alt="pepol">
+                  </div>
+                  <div class="zone__item item-zone  item-zone--color-white">
+                     <div class="item-zone__content item-zone__content--text-right">
+                        <a class="item-zone__label" href="#">Limited Stock</a>
+                        <div class="item-zone__body">
+                           <h5 class="item-zone__title">Printed
+                              T-Shirt</h5>
+                           <p class="item-zone__text">New Designs Every Week</p>
+                           <span class="item-zone__discont">UPTO 40% OFF</span>
+                        </div>
+                        <a target="_blank" class="item-zone__link" href="#">
+                           <svg class="item-zone__arow" width="22.872559" height="25.787842" viewBox="0 0 22.8726 25.7878"
+                              fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                              <desc>
+                                 Created with Pixso.
+                              </desc>
+                              <defs />
+                              <path id="arrow"
+                                 d="M11.43 1L11.43 23.6M21.86 14.9L12.66 24.11C11.98 24.79 10.88 24.79 10.2 24.11L1 14.9"
+                                 stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="2.000000" />
+                           </svg>
+                           <span class="item-zone__shrits"> SHOP NOW</span>
+                        </a>
+                     </div>
+                     <img class="item-zone__image" src="img/printed.png" alt="pepol">
+                  </div>
+                  <div class="zone__item item-zone">
+                     <div class="item-zone__content">
+                        <div class="item-zone__body">
+                           <h5 class="item-zone__title">Cargo
+                              Joggers</h5>
+                           <p class="item-zone__text">Move with style & comfort</p>
+                           <span class="item-zone__discont">UPTO 50% OFF</span>
+                        </div>
+                        <a target="_blank" class="item-zone__link" href="#">
+                           <svg class="item-zone__arow" width="26.140137" height="29.471680" viewBox="0 0 26.1401 29.4717"
+                              fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                              <path id="arrow"
+                                 d="M13.07 1.14L13.07 26.97M24.99 17.03L14.47 27.55C13.69 28.33 12.44 28.33 11.66 27.55L1.14 17.03"
+                                 stroke="#3C4242" stroke-opacity="1.000000" stroke-width="2.285714" />
+                           </svg>
+                           <span class="item-zone__print"> SHOP NOW</span>
+                        </a>
+                     </div>
+                     <img class="item-zone__image" src="img/cargo.png" alt="pepol">
+                  </div>
+                  <div class="zone__item item-zone item-zone--big">
+                     <div class="item-zone__content">
+                        <div class="item-zone__body">
+                           <h5 class="item-zone__title">Urban
+                              Shirts</h5>
+                           <p class="item-zone__text">Live In Confort</p>
+                           <span class="item-zone__discont">FLAT 60% OFF</span>
+                        </div>
+                        <a target="_blank" class="item-zone__link item-zone__link--print" href="#">
+                           <svg class="item-zone__arow" width="26.140137" height="29.471680" viewBox="0 0 26.1401 29.4717"
+                              fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                              <path id="arrow"
+                                 d="M13.07 1.14L13.07 26.97M24.99 17.03L14.47 27.55C13.69 28.33 12.44 28.33 11.66 27.55L1.14 17.03"
+                                 stroke="#3C4242" stroke-opacity="1.000000" stroke-width="2.285714" />
+                           </svg>
+                           <span class="item-zone__print"> SHOP NOW</span>
+                        </a>
+                     </div>
+                     <img class="item-zone__image" src="img/urban.png" alt="pepol">
+                  </div>
+                  <div class="zone__item item-zone item-zone--big">
+                     <div class="item-zone__content">
+                        <div class="item-zone__body">
+                           <h5 class="item-zone__title">Oversized
+                              T-Shirts</h5>
+                           <p class="item-zone__text">Street Style Icon</p>
+                           <span class="item-zone__discont">FLAT 60% OFF</span>
+                        </div>
+                        <a target="_blank" class="item-zone__link item-zone__link--print" href="#">
+                           <svg class="item-zone__arow" width="26.140137" height="29.471680" viewBox="0 0 26.1401 29.4717"
+                              fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                              <path id="arrow"
+                                 d="M13.07 1.14L13.07 26.97M24.99 17.03L14.47 27.55C13.69 28.33 12.44 28.33 11.66 27.55L1.14 17.03"
+                                 stroke="#3C4242" stroke-opacity="1.000000" stroke-width="2.285714" />
+                           </svg>
+                           <span class="item-zone__print"> SHOP NOW</span>
+                        </a>
+                     </div>
+                     <img class="item-zone__image" src="img/oversiz.png" alt="pepol">
+                  </div>
+               </div>
+            </div>
+         </div>
+         </div>
+   </main>
+   <footer class="footer"></footer>
+   </div>
+   <script src="js/script.js"></script>
+</body>
+<span></span>
+
+</html>

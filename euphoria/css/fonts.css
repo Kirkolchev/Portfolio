@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Causten";
+    src: url("../fonts/Causten-Medium.woff2") format("woff2"),
+        url("../fonts/Causten-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Causten";
+    src:
+        url("../fonts/Causten-Semi-Bold.woff2") format("woff2"),
+        url("../fonts/Causten-Semi-Bold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Causten";
+    src: url("../fonts/Causten-Bold.woff2") format("woff2"),
+        url("../fonts/Causten-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'coresansc';
+    src: url('../fonts/coresansc-65Bold.woff2') format('woff2'),
+        url('../fonts/coresansc-65Bold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'coresansc';
+    src: url('../fonts/coresansc-75ExtraBold.woff2') format('woff2'),
+        url('../fonts/coresansc-75ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
