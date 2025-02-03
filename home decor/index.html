@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20250203232331">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<header class="header header--margin">
+			<div class="header__container">
+				<button type="button" class=" icon-menu"><span></span></button>
+				<div class="header__logo">
+					<svg width="192" height="23" viewBox="0 0 192 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path
+							d="M12.3967 0.714865H15.4626V22.4716H12.3967V12.4324H3.066V22.4716H0V0.714865H3.066V9.2H12.3967V0.714865Z"
+							fill="white" />
+						<path
+							d="M28.5825 22.8757C27.1871 22.8757 25.8752 22.5856 24.6468 22.0054C23.4185 21.4149 22.3375 20.6016 21.4039 19.5655C20.4704 18.5295 19.7383 17.3329 19.2076 15.9757C18.677 14.6081 18.4116 13.1473 18.4116 11.5932C18.4116 10.0392 18.677 8.58356 19.2076 7.22635C19.7383 5.85878 20.4704 4.65698 21.4039 3.62095C22.3375 2.58491 23.4185 1.7768 24.6468 1.19662C25.8752 0.606081 27.1871 0.31081 28.5825 0.31081C29.9877 0.31081 31.3046 0.606081 32.5329 1.19662C33.7613 1.7768 34.8422 2.58491 35.7758 3.62095C36.7094 4.65698 37.4366 5.85878 37.9574 7.22635C38.488 8.58356 38.7534 10.0392 38.7534 11.5932C38.7534 13.1473 38.488 14.6081 37.9574 15.9757C37.4366 17.3329 36.7094 18.5295 35.7758 19.5655C34.8422 20.6016 33.7613 21.4149 32.5329 22.0054C31.3046 22.5856 29.9877 22.8757 28.5825 22.8757ZM28.5825 19.6432C29.5652 19.6432 30.484 19.4309 31.3389 19.0061C32.1939 18.5813 32.9456 18.0011 33.5942 17.2655C34.2526 16.5196 34.7636 15.6649 35.1272 14.7013C35.5006 13.7275 35.6874 12.6914 35.6874 11.5932C35.6874 10.495 35.5006 9.45901 35.1272 8.48514C34.7636 7.51126 34.2526 6.65653 33.5942 5.92095C32.9456 5.175 32.1939 4.59482 31.3389 4.18041C30.484 3.75563 29.5652 3.54324 28.5825 3.54324C27.5998 3.54324 26.681 3.75563 25.8261 4.18041C24.9711 4.60518 24.2144 5.19054 23.556 5.93649C22.9075 6.67207 22.3965 7.5268 22.023 8.50068C21.6594 9.46419 21.4776 10.495 21.4776 11.5932C21.4776 12.7018 21.6594 13.743 22.023 14.7169C22.3965 15.6804 22.9075 16.5351 23.556 17.2811C24.2144 18.0167 24.9711 18.5968 25.8261 19.0216C26.681 19.436 27.5998 19.6432 28.5825 19.6432Z"
+							fill="white" />
+						<path
+							d="M49.6522 22.8757C48.0013 22.8757 46.5617 22.4509 45.3333 21.6014C44.1148 20.7518 43.1665 19.6122 42.4884 18.1824C41.8202 16.7423 41.4861 15.1468 41.4861 13.3959V0.714865H44.5521V13.3959C44.5521 14.5356 44.7486 15.582 45.1417 16.5351C45.5446 17.4779 46.1244 18.2342 46.8811 18.8041C47.6476 19.3635 48.5713 19.6432 49.6522 19.6432C50.7627 19.6432 51.6962 19.3635 52.4529 18.8041C53.2096 18.2342 53.7795 17.4779 54.1628 16.5351C54.5559 15.582 54.7524 14.5356 54.7524 13.3959V0.714865H57.8184V13.3959C57.8184 14.7117 57.6268 15.9446 57.2435 17.0946C56.8603 18.2342 56.31 19.2392 55.5926 20.1095C54.8752 20.9797 54.0154 21.6583 53.0131 22.1453C52.0107 22.6322 50.8904 22.8757 49.6522 22.8757Z"
+							fill="white" />
+						<path
+							d="M68.7065 22.8757C67.5764 22.8757 66.4905 22.6892 65.4489 22.3162C64.4072 21.9432 63.4982 21.4097 62.7219 20.7155C61.9456 20.011 61.3903 19.177 61.0562 18.2135L63.9306 17.0791C64.0977 17.5764 64.417 18.0218 64.8887 18.4155C65.3702 18.7989 65.9402 19.0993 66.5986 19.3169C67.2668 19.5345 67.9695 19.6432 68.7065 19.6432C69.4926 19.6432 70.2297 19.5086 70.9175 19.2392C71.6152 18.9698 72.1754 18.5968 72.5979 18.1203C73.0303 17.6437 73.2465 17.0842 73.2465 16.4419C73.2465 15.7788 73.0205 15.2349 72.5685 14.8101C72.1263 14.3854 71.5563 14.0486 70.8586 13.8C70.1707 13.5514 69.4533 13.3649 68.7065 13.2405C67.2619 12.9919 65.9648 12.6293 64.815 12.1527C63.6751 11.6761 62.771 11.0079 62.1028 10.148C61.4444 9.28806 61.1152 8.16914 61.1152 6.79122C61.1152 5.49617 61.464 4.36689 62.1618 3.40338C62.8693 2.43986 63.7979 1.69392 64.9477 1.16554C66.1073 0.626802 67.3602 0.357432 68.7065 0.357432C69.8169 0.357432 70.8881 0.543919 71.9199 0.916892C72.9615 1.2795 73.8754 1.81306 74.6616 2.51757C75.4576 3.21171 76.0275 4.05608 76.3715 5.05068L73.4676 6.15405C73.3006 5.6464 72.9812 5.20608 72.5095 4.83311C72.0378 4.44977 71.4678 4.14932 70.7996 3.93176C70.1412 3.71419 69.4435 3.6054 68.7065 3.6054C67.9203 3.59504 67.1833 3.72973 66.4954 4.00946C65.8174 4.27883 65.2621 4.6518 64.8298 5.12838C64.3974 5.60495 64.1812 6.15923 64.1812 6.79122C64.1812 7.56824 64.3826 8.15878 64.7855 8.56284C65.1884 8.96689 65.7289 9.26734 66.407 9.46419C67.0949 9.65067 67.8614 9.82162 68.7065 9.97703C70.0626 10.205 71.3155 10.5831 72.4653 11.1115C73.6248 11.6399 74.5535 12.3444 75.2512 13.225C75.9587 14.0953 76.3125 15.1676 76.3125 16.4419C76.3125 17.7266 75.9587 18.8559 75.2512 19.8297C74.5535 20.7932 73.6248 21.5444 72.4653 22.0831C71.3155 22.6115 70.0626 22.8757 68.7065 22.8757Z"
+							fill="white" />
+						<path
+							d="M79.7189 22.4716V0.714865H92.5283V3.9473H82.7849V9.2H90.6268V12.4324H82.7849V19.2392H92.5283V22.4716H79.7189Z"
+							fill="white" />
+						<path
+							d="M103.272 0.683784C110.052 0.683784 114.15 4.44459 114.15 10.9095C114.15 18.2135 108.873 22.2541 102.682 22.2541H94.398V22.1919C95.4593 22.0986 96.2553 21.1662 96.2553 20.0162V2.89054C96.2553 1.77162 95.4593 0.839189 94.398 0.714865V0.683784H103.272ZM102.977 21.7878C108.136 21.7878 111.438 19.6743 111.438 12.3703C111.438 5.90541 108.814 0.963514 102.092 0.963514H98.6432V20.7622C99.7046 21.3527 101.179 21.7878 102.977 21.7878Z"
+							fill="white" />
+						<path
+							d="M124.119 21.9743C126.979 21.9743 129.573 20.2959 130.87 17.6541L129.838 23L128.865 22.2541H115.098V22.1919C116.13 22.0986 116.955 21.1662 116.955 20.0473V2.89054C116.955 1.77162 116.13 0.839189 115.098 0.714865V0.683784H129.986L130.87 5.28378C129.573 2.61081 126.979 0.932433 124.119 0.932433H119.343V11.3446H124.148C125.564 11.3446 126.831 10.4122 127.362 9.04459H127.421V13.8932H127.362C126.831 12.4946 125.564 11.5932 124.148 11.5932H119.343V21.9743H124.119Z"
+							fill="white" />
+						<path
+							d="M148.341 19.2703C149.284 18.4311 149.992 17.5608 150.228 16.9703L150.405 16.5351C150.316 16.8149 150.287 17.1568 149.579 18.4311C149.255 19.0527 148.842 19.6122 148.4 20.1405C147.456 21.1351 145.747 22.2851 143.801 22.5649C140.322 23.0622 137.168 21.9122 135.163 19.7986C133.158 17.6851 132.009 14.7946 131.92 11.873C131.832 8.32973 133.011 5.31486 134.927 3.45C136.814 1.58514 139.261 0.497298 142.003 0.27973C143.329 0.186488 144.626 0.248649 145.923 0.528379C147.368 0.839189 148.754 1.46081 149.255 1.83378C149.579 2.05135 150.08 2.42432 150.552 2.82838L148.547 4.7554C147.545 3.32568 146.336 2.23784 144.862 1.52297C142.504 0.372974 140.352 0.435135 138.288 1.70946C137.05 2.48649 136.077 3.72973 135.458 5.40811C134.839 7.11757 134.603 9.01351 134.75 11.127C134.957 13.9865 135.9 16.2865 137.61 18.027C139.32 19.7986 141.383 20.6689 143.771 20.7C145.688 20.7 147.397 20.0473 148.341 19.2703Z"
+							fill="white" />
+						<path
+							d="M162.667 0C168.681 0 173.634 4.32027 173.634 11.3446C173.634 18.3378 168.681 22.6892 162.667 22.6892C156.653 22.6892 151.7 18.3378 151.7 11.3446C151.7 4.32027 156.653 0 162.667 0ZM163.846 22.1919C168.239 22.1919 171.128 18.4622 171.128 13.0541C171.128 6.71351 167.089 0.497298 161.488 0.497298C157.095 0.497298 154.206 4.22703 154.206 9.57297C154.206 15.9446 158.245 22.1919 163.846 22.1919Z"
+							fill="white" />
+						<path
+							d="M179.028 13.5514C182.094 16.9081 186.399 18.9905 191.175 18.9905C191.44 18.9905 191.735 18.9905 192 18.9595L188.934 21.9122C184.453 20.9176 180.738 17.7473 178.822 13.4892C178.822 13.4892 178.822 13.4892 178.793 13.4892V20.0473C178.822 21.1662 179.618 22.0986 180.679 22.1919V22.2541H174.547V22.1919C175.579 22.0986 176.405 21.1662 176.405 20.0473V2.85946C176.405 1.74054 175.579 0.839189 174.547 0.714865V0.683784H184.306C188.698 0.683784 192 2.67297 192 6.65135C192 11.0027 188.551 14.3595 183.244 14.2041C181.21 14.1419 179.677 13.7378 179.028 13.5514ZM182.773 0.994595H178.793V13.3027C179.795 13.5514 181.387 13.8 181.446 13.8C181.475 13.8 181.534 13.8 181.593 13.8C181.623 13.8 181.682 13.8311 181.711 13.8311C182.183 13.8622 182.655 13.8932 183.097 13.9243C183.215 13.9243 183.333 13.9243 183.421 13.9243C187.666 13.9243 189.376 11.3135 189.376 7.73919C189.376 4.41351 188.551 0.994595 182.773 0.994595Z"
+							fill="white" />
+					</svg>
+				</div>
+				<div class="header__left">
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="" class="menu__link">BEDROOM</a></li>
+								<li class="menu__item"><a href="" class="menu__link">LIVING ROOM</a></li>
+								<li class="menu__item"><a href="" class="menu__link">KITCHEN</a></li>
+								<li class="menu__item"><a href="" class="menu__link">BATHROOM</a></li>
+								<li class="menu__item"><a href="" class="menu__link">SALE</a></li>
+							</ul>
+						</nav>
+					</div>
+					<a class="header__shop" href="#">
+						<svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M14.0703 12.642C13.2498 12.642 12.642 13.3106 12.642 14.1007C12.642 14.9212 13.2802 15.5594 14.0703 15.5594C14.8301 15.5594 15.4986 14.9212 15.4986 14.1007C15.4986 13.3106 14.8908 12.642 14.0703 12.642ZM5.31815 12.642C4.49764 12.642 3.88985 13.3106 3.88985 14.1007C3.88985 14.9212 4.52803 15.5594 5.31815 15.5594C6.07789 15.5594 6.74646 14.9212 6.74646 14.1007C6.74646 13.3106 6.13867 12.642 5.31815 12.642ZM17.2916 1.36753C17.1093 1.12441 16.8358 0.972462 16.5015 0.972462H3.67712L3.61634 0.607789C3.55557 0.273505 3.25167 0 2.91739 0H0.698957C0.303894 0 0 0.334284 0 0.729347C0 1.09402 0.303894 1.45869 0.698957 1.45869H2.27921L4.10258 11.0921C4.19374 11.4264 4.49764 11.6695 4.86231 11.6695H14.8301C15.2251 11.6695 15.5594 11.3657 15.5594 10.9706C15.5594 10.5451 15.2251 10.2109 14.8301 10.2109H5.43971L5.16621 8.75216H14.8604C15.2859 8.75216 15.6506 8.47866 15.7721 8.0532L17.4435 2.24882C17.5347 1.94492 17.4739 1.61064 17.2916 1.36753Z"
+								fill="white" />
+						</svg>
+					</a>
+				</div>
+			</div>
+		</header>
+		<main class="page page--margin">
+
+			<!-- hero sections -->
+			<section class="hero hero--margin">
+				<div class="hero__container">
+					<div class="hero__wraps">
+						<!-- hero  informations -->
+						<div class="hero__content">
+							<div data-watch class="hero__some-text">NEW COLLECTION</div>
+							<h1 data-watch class="hero__title">The Beauty Of Design</h1>
+							<div data-watch class="hero__text">
+								<p>Both functional and decorative, which feels artisan-made but has a contemporary look.
+								</p>
+							</div>
+							<a data-watch class="hero__batton batton" href="#">EXPLORE</a>
+						</div>
+						<!-- hero photo -->
+						<div data-watch class="hero__photo">
+							<img class="hero__image" src="img/hero/hero.webp" alt="photo">
+							<a target="_blank" class="hero__link hero__link--pictures" href="#">
+								<svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16Z"
+										fill="white" />
+									<path
+										d="M27.2 16.0002C27.2 22.1858 22.1856 27.2002 16 27.2002C9.81443 27.2002 4.80002 22.1858 4.80002 16.0002C4.80002 9.8146 9.81443 4.80019 16 4.80019C22.1856 4.80019 27.2 9.8146 27.2 16.0002Z"
+										fill="#FF7114" />
+									<path d="M21.6 16.8H16.8V21.6H15.2V16.8H10.4V15.2H15.2V10.4H16.8V15.2H21.6V16.8Z"
+										fill="white" />
+								</svg>
+							</a>
+							<a target="_blank" class="hero__link hero__link--sofa" href="#">
+								<svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16Z"
+										fill="white" />
+									<path
+										d="M27.2 16.0002C27.2 22.1858 22.1856 27.2002 16 27.2002C9.81443 27.2002 4.80002 22.1858 4.80002 16.0002C4.80002 9.8146 9.81443 4.80019 16 4.80019C22.1856 4.80019 27.2 9.8146 27.2 16.0002Z"
+										fill="#FF7114" />
+									<path d="M21.6 16.8H16.8V21.6H15.2V16.8H10.4V15.2H15.2V10.4H16.8V15.2H21.6V16.8Z"
+										fill="white" />
+								</svg>
+							</a>
+						</div>
+					</div>
+					<div class="hero__footer">
+						Place seasonal & targeted discount benefits here
+					</div>
+
+				</div>
+			</section>
+			<!--  show more -->
+			<div class="show-more show-more--margin">
+				<div class="show-more__container">
+					<div class="show-more__colection">
+						<!-- card -->
+						<article data-watch class=" card-colection card-colection--color-one">
+							<div class="card-colection__top">
+								<div class="card-colection__new">NEW COLLECTION</div>
+								<h4 class="card-colection__title">Decor & <br> Wellness</h4>
+								<a class="card-colection__link batton" target="_blank" href="#">Show more</a>
+							</div>
+							<div class="card-colection__photo">
+								<img class="card-colection__image" src="img/colection/vase.webp" alt="Image">
+							</div>
+						</article>
+						<article data-watch class="card-colection card-colection--color-two">
+							<div class="card-colection__top">
+								<h4 class="card-colection__title">Kitchen & <br> Dining</h4>
+								<a class="card-colection__link batton" target="_blank" href="#">Show more</a>
+							</div>
+							<div class="card-colection__photo"><img class="card-colection__image"
+									src="img/colection/plates.webp" alt="Image"></div>
+						</article>
+						<article data-watch class=" card-colection card-colection--color-three ">
+							<div class="card-colection__top">
+								<h4 class="card-colection__title">Shop <br> Furniture</h4>
+								<a class="card-colection__link batton" target="_blank" href="#">Show more</a>
+							</div>
+							<div class="card-colection__photo"> <img class="card-colection__image"
+									src="img/colection/chair.webp" alt="Image"></div>
+						</article>
+					</div>
+				</div>
+			</div>
+			<!-- brands -->
+			<div data-watch class="brands brands--margin">
+				<div class="brands__container">
+					<!-- brands item -->
+					<div class="brands__content">
+						<a class="brands__link" target="_blank" href="#">
+							<img class="brands__image" src="img/brands/brands01.webp" alt="Image">
+						</a>
+						<a class="brands__link" target="_blank" href="#">
+							<img class="brands__image" src="img/brands/brands02.webp" alt="Image">
+						</a>
+						<a class="brands__link" target="_blank" href="#">
+							<img class="brands__image" src="img/brands/brands03.webp" alt="Image">
+						</a>
+						<a class="brands__link" target="_blank" href="#">
+							<img class="brands__image" src="img/brands/brands04.webp" alt="Image">
+						</a>
+						<a class="brands__link brands__link--display" target="_blank" href="#">
+							<img class="brands__image" src="img/brands/brands05.webp" alt="Image">
+						</a>
+						<a class="brands__link brands__link--display" target="_blank" href="#">
+							<img class="brands__image" src="img/brands/brands06.webp" alt="Image">
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- arrivals -->
+			<section data-watch class="arrivals arrivals--margin">
+				<div class="arrivals__container">
+					<div class="arrivals__info">
+						<div class="arrivals__sab-title">NEW ARRIVALS</div>
+						<h2 class="arrivals__title">Everything you need for your living room</h2>
+						<a class="arrivals__link batton" target="_blank" href="#">PURCHASE</a>
+					</div>
+				</div>
+				<!-- arrival-backgraund -->
+				<img src="img/arrivals/arrivals.webp" alt="background" class="arrivals__background ibg--contain">
+			</section>
+			<!-- advantages -->
+			<div class="advantages advantages--margin">
+				<div class="advantages__container">
+					<article data-watch class="advantages__card">
+						<svg width="50" height="51" viewBox="0 0 50 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M22.6562 11.9688C22.6562 10.6992 23.6328 9.625 25 9.625C26.2695 9.625 27.3438 10.6992 27.3438 11.9688V24.0781L35.6445 29.5469C36.7188 30.3281 37.0117 31.793 36.2305 32.8672C35.5469 33.9414 34.082 34.2344 33.0078 33.4531L23.6328 27.2031C23.0469 26.8125 22.6562 26.0312 22.6562 25.25V11.9688ZM25 0.25C38.7695 0.25 50 11.4805 50 25.25C50 39.1172 38.7695 50.25 25 50.25C11.1328 50.25 0 39.1172 0 25.25C0 11.4805 11.1328 0.25 25 0.25ZM4.6875 25.25C4.6875 36.4805 13.7695 45.5625 25 45.5625C36.1328 45.5625 45.3125 36.4805 45.3125 25.25C45.3125 14.1172 36.1328 4.9375 25 4.9375C13.7695 4.9375 4.6875 14.1172 4.6875 25.25Z"
+								fill="#C6C9A5" />
+						</svg>
+						<h5 class="advantages__title">Long-life objects</h5>
+						<div class="advantages__text">
+							<p>Short text describing one of your product or service advantages. <br> Try being creative.
+							</p>
+						</div>
+					</article>
+					<article data-watch class="advantages__card">
+						<svg width="64" height="51" viewBox="0 0 64 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M35.125 4.9375H13.25C12.3711 4.9375 11.6875 5.71875 11.6875 6.5V9.625H24.1875C24.9688 9.625 25.75 10.4062 25.75 11.1875C25.75 12.0664 24.9688 12.75 24.1875 12.75H2.3125C1.43359 12.75 0.75 12.0664 0.75 11.1875C0.75 10.4062 1.43359 9.625 2.3125 9.625H7V6.5C7 3.08203 9.73438 0.25 13.25 0.25H35.125C38.543 0.25 41.375 3.08203 41.375 6.5V9.625H45.4766C46.9414 9.625 48.3086 10.2109 49.3828 11.2852L58.4648 20.3672C59.5391 21.4414 60.125 22.8086 60.125 24.2734V36.1875H60.9062C62.1758 36.1875 63.25 37.2617 63.25 38.5312C63.25 39.8984 62.1758 40.875 60.9062 40.875H57C57 46.0508 52.8008 50.25 47.625 50.25C42.4492 50.25 38.25 46.0508 38.25 40.875H25.75C25.75 46.0508 21.5508 50.25 16.375 50.25C11.1992 50.25 7 46.0508 7 40.875V28.375H11.6875V32.7695C13.0547 31.9883 14.6172 31.5 16.375 31.5C19.793 31.5 22.8203 33.4531 24.4805 36.1875H35.125C35.9062 36.1875 36.6875 35.5039 36.6875 34.625V6.5C36.6875 5.71875 35.9062 4.9375 35.125 4.9375ZM55.1445 23.6875L46.0625 14.6055C45.8672 14.4102 45.6719 14.3125 45.4766 14.3125H41.375V23.6875H55.2422H55.1445ZM21.0625 40.875C21.0625 39.2148 20.0859 37.75 18.7188 36.8711C17.2539 35.9922 15.3984 35.9922 14.0312 36.8711C12.5664 37.75 11.6875 39.2148 11.6875 40.875C11.6875 42.6328 12.5664 44.0977 14.0312 44.9766C15.3984 45.8555 17.2539 45.8555 18.7188 44.9766C20.0859 44.0977 21.0625 42.6328 21.0625 40.875ZM47.625 45.5625C49.2852 45.5625 50.75 44.6836 51.6289 43.2188C52.5078 41.8516 52.5078 39.9961 51.6289 38.5312C50.75 37.1641 49.2852 36.1875 47.625 36.1875C45.8672 36.1875 44.4023 37.1641 43.5234 38.5312C42.6445 39.9961 42.6445 41.8516 43.5234 43.2188C44.4023 44.6836 45.8672 45.5625 47.625 45.5625ZM5.4375 15.875H27.3125C28.0938 15.875 28.875 16.6562 28.875 17.4375C28.875 18.3164 28.0938 19 27.3125 19H5.4375C4.55859 19 3.875 18.3164 3.875 17.4375C3.875 16.6562 4.55859 15.875 5.4375 15.875ZM2.3125 22.125H24.1875C24.9688 22.125 25.75 22.9062 25.75 23.6875C25.75 24.5664 24.9688 25.25 24.1875 25.25H2.3125C1.43359 25.25 0.75 24.5664 0.75 23.6875C0.75 22.9062 1.43359 22.125 2.3125 22.125Z"
+								fill="#B7D1D1" />
+						</svg>
+						<h5 class="advantages__title">Long-life objects</h5>
+						<div class="advantages__text">
+							<p>Short text describing one of your product or service advantages. <br> Try being creative.
+							</p>
+						</div>
+					</article>
+					<article data-watch class="advantages__card">
+						<svg width="50" height="45" viewBox="0 0 50 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M8.59375 0.375H44.5312C45.8008 0.375 46.875 1.44922 46.875 2.71875C46.875 4.08594 45.8008 5.0625 44.5312 5.0625H8.59375C6.34766 5.0625 4.6875 6.82031 4.6875 8.96875V35.5312C4.6875 37.7773 6.34766 39.4375 8.59375 39.4375H41.4062C43.5547 39.4375 45.3125 37.7773 45.3125 35.5312V18.3438C45.3125 16.1953 43.5547 14.4375 41.4062 14.4375H11.7188C10.3516 14.4375 9.375 13.4609 9.375 12.0938C9.375 10.8242 10.3516 9.75 11.7188 9.75H41.4062C46.0938 9.75 50 13.6562 50 18.3438V35.5312C50 40.3164 46.0938 44.125 41.4062 44.125H8.59375C3.80859 44.125 0 40.3164 0 35.5312V8.96875C0 4.28125 3.80859 0.375 8.59375 0.375ZM37.5 30.0625C35.7422 30.0625 34.375 28.6953 34.375 26.9375C34.375 25.2773 35.7422 23.8125 37.5 23.8125C39.1602 23.8125 40.625 25.2773 40.625 26.9375C40.625 28.6953 39.1602 30.0625 37.5 30.0625Z"
+								fill="#D0C9B2" />
+						</svg>
+						<h5 class="advantages__title">Long-life objects</h5>
+						<div class="advantages__text">
+							<p>Short text describing one of your product or service advantages. <br> Try being creative.
+							</p>
+						</div>
+					</article>
+				</div>
+			</div>
+			<!-- furniture -->
+			<section class="furniture furniture--margin">
+				<div class="furniture__container">
+					<h2 data-watch-threshold="0.1" data-watch class="furniture__title">Furniture designed for you</h2>
+					<!-- furniture BG -->
+					<div data-watch class="furniture__photo photo-furniture">
+						<img class="photo-furniture__image ibg" src="img/furniture/furniture__bg.webp" alt="Image">
+						<a class="photo-furniture__link photo-furniture__link--left" href="#">
+							<svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16Z"
+									fill="white" />
+								<path
+									d="M27.2 16C27.2 22.1856 22.1856 27.2 16 27.2C9.81441 27.2 4.8 22.1856 4.8 16C4.8 9.81441 9.81441 4.8 16 4.8C22.1856 4.8 27.2 9.81441 27.2 16Z"
+									fill="black" />
+								<path d="M21.6 16.8H16.8V21.6H15.2V16.8H10.4V15.2H15.2V10.4H16.8V15.2H21.6V16.8Z"
+									fill="white" />
+							</svg>
+						</a>
+						<a class="photo-furniture__link photo-furniture__link--right" href="#">
+							<svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16Z"
+									fill="white" />
+								<path
+									d="M27.2 16C27.2 22.1856 22.1856 27.2 16 27.2C9.81441 27.2 4.8 22.1856 4.8 16C4.8 9.81441 9.81441 4.8 16 4.8C22.1856 4.8 27.2 9.81441 27.2 16Z"
+									fill="black" />
+								<path d="M21.6 16.8H16.8V21.6H15.2V16.8H10.4V15.2H15.2V10.4H16.8V15.2H21.6V16.8Z"
+									fill="white" />
+							</svg>
+						</a>
+					</div>
+					<div data-watch class="furniture__short">
+						<div class="furniture__info">
+							<h5 class="furniture__sab-title">Short subtitle for a section</h5>
+							<div class="furniture__text">
+								<p>A small description of what you can offer your customers or why they should choose
+									your service</p>
+							</div>
+						</div>
+						<a class="furniture__link batton" target="_blank" href="#">FIND MORE</a>
+					</div>
+				</div>
+			</section>
+			<!-- SHOP -->
+			<section class="shop">
+				<div class="shop__container">
+					<!-- SHOP TITLE -->
+					<h2 data-watch class="shop__title">Shop best sellers</h2>
+					<!-- SHOPW CARD -->
+					<div class="shop__items">
+						<article data-watch class="product">
+							<a target="_blank" class="product__picture-link" href="#">
+								<img class="product__image" src="img/product/product-01.webp" alt="Image"></a>
+							<div class="product__body">
+								<h4 class="product__title"><a class="product__title-link" href="#">Product Name</a></h4>
+								<div class="product__prise">€0.00</div>
+								<a target="_blank" class="product__shop-link" href="#">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M4.8 12.8C3.92 12.8 3.208 13.52 3.208 14.4C3.208 15.28 3.92 16 4.8 16C5.68 16 6.4 15.28 6.4 14.4C6.4 13.52 5.68 12.8 4.8 12.8ZM0 0V1.6H1.6L4.48 7.672L3.4 9.632C3.272 9.856 3.2 10.12 3.2 10.4C3.2 11.28 3.92 12 4.8 12H14.4V10.4H5.136C5.024 10.4 4.936 10.312 4.936 10.2L4.96 10.104L5.68 8.8H11.64C12.24 8.8 12.768 8.472 13.04 7.976L15.904 2.784C15.968 2.672 16 2.536 16 2.4C16 1.96 15.64 1.6 15.2 1.6H3.368L2.616 0H0ZM12.8 12.8C11.92 12.8 11.208 13.52 11.208 14.4C11.208 15.28 11.92 16 12.8 16C13.68 16 14.4 15.28 14.4 14.4C14.4 13.52 13.68 12.8 12.8 12.8Z"
+											fill="#A2A2A2" />
+									</svg>
+								</a>
+							</div>
+						</article>
+						<article data-watch class="product">
+							<a target="_blank" class="product__picture-link" href="#">
+								<img class="product__image" src="img/product/product-02.webp" alt="Image"></a>
+							<div class="product__body">
+								<h4 class="product__title"><a class="product__title-link" href="#">Product Name</a></h4>
+								<div class="product__prise">€0.00</div>
+								<a target="_blank" class="product__shop-link" href="#">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M4.8 12.8C3.92 12.8 3.208 13.52 3.208 14.4C3.208 15.28 3.92 16 4.8 16C5.68 16 6.4 15.28 6.4 14.4C6.4 13.52 5.68 12.8 4.8 12.8ZM0 0V1.6H1.6L4.48 7.672L3.4 9.632C3.272 9.856 3.2 10.12 3.2 10.4C3.2 11.28 3.92 12 4.8 12H14.4V10.4H5.136C5.024 10.4 4.936 10.312 4.936 10.2L4.96 10.104L5.68 8.8H11.64C12.24 8.8 12.768 8.472 13.04 7.976L15.904 2.784C15.968 2.672 16 2.536 16 2.4C16 1.96 15.64 1.6 15.2 1.6H3.368L2.616 0H0ZM12.8 12.8C11.92 12.8 11.208 13.52 11.208 14.4C11.208 15.28 11.92 16 12.8 16C13.68 16 14.4 15.28 14.4 14.4C14.4 13.52 13.68 12.8 12.8 12.8Z"
+											fill="#A2A2A2" />
+									</svg>
+								</a>
+							</div>
+						</article>
+						<article data-watch class="product">
+							<a target="_blank" class="product__picture-link" href="#">
+								<img class="product__image" src="img/product/product-03.webp" alt="Image"></a>
+							<div class="product__body">
+								<h4 class="product__title"><a class="product__title-link" href="#">Product Name</a></h4>
+								<div class="product__prise">€0.00</div>
+								<a target="_blank" class="product__shop-link" href="#">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M4.8 12.8C3.92 12.8 3.208 13.52 3.208 14.4C3.208 15.28 3.92 16 4.8 16C5.68 16 6.4 15.28 6.4 14.4C6.4 13.52 5.68 12.8 4.8 12.8ZM0 0V1.6H1.6L4.48 7.672L3.4 9.632C3.272 9.856 3.2 10.12 3.2 10.4C3.2 11.28 3.92 12 4.8 12H14.4V10.4H5.136C5.024 10.4 4.936 10.312 4.936 10.2L4.96 10.104L5.68 8.8H11.64C12.24 8.8 12.768 8.472 13.04 7.976L15.904 2.784C15.968 2.672 16 2.536 16 2.4C16 1.96 15.64 1.6 15.2 1.6H3.368L2.616 0H0ZM12.8 12.8C11.92 12.8 11.208 13.52 11.208 14.4C11.208 15.28 11.92 16 12.8 16C13.68 16 14.4 15.28 14.4 14.4C14.4 13.52 13.68 12.8 12.8 12.8Z"
+											fill="#A2A2A2" />
+									</svg>
+								</a>
+							</div>
+						</article>
+						<article data-watch class="product">
+							<a target="_blank" class="product__picture-link" href="#">
+								<img class="product__image" src="img/product/product-04.webp" alt="Image"></a>
+							<div class="product__body">
+								<h4 class="product__title"><a class="product__title-link" href="#">Product Name</a></h4>
+								<div class="product__prise">€0.00</div>
+								<a target="_blank" class="product__shop-link" href="#">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M4.8 12.8C3.92 12.8 3.208 13.52 3.208 14.4C3.208 15.28 3.92 16 4.8 16C5.68 16 6.4 15.28 6.4 14.4C6.4 13.52 5.68 12.8 4.8 12.8ZM0 0V1.6H1.6L4.48 7.672L3.4 9.632C3.272 9.856 3.2 10.12 3.2 10.4C3.2 11.28 3.92 12 4.8 12H14.4V10.4H5.136C5.024 10.4 4.936 10.312 4.936 10.2L4.96 10.104L5.68 8.8H11.64C12.24 8.8 12.768 8.472 13.04 7.976L15.904 2.784C15.968 2.672 16 2.536 16 2.4C16 1.96 15.64 1.6 15.2 1.6H3.368L2.616 0H0ZM12.8 12.8C11.92 12.8 11.208 13.52 11.208 14.4C11.208 15.28 11.92 16 12.8 16C13.68 16 14.4 15.28 14.4 14.4C14.4 13.52 13.68 12.8 12.8 12.8Z"
+											fill="#A2A2A2" />
+									</svg>
+								</a>
+							</div>
+						</article>
+						<article data-watch class="product">
+							<a target="_blank" class="product__picture-link" href="#">
+								<img class="product__image" src="img/product/product-05.webp" alt="Image"></a>
+							<div class="product__body">
+								<h4 class="product__title"><a class="product__title-link" href="#">Product Name</a></h4>
+								<div class="product__prise">€0.00</div>
+								<a target="_blank" class="product__shop-link" href="#">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M4.8 12.8C3.92 12.8 3.208 13.52 3.208 14.4C3.208 15.28 3.92 16 4.8 16C5.68 16 6.4 15.28 6.4 14.4C6.4 13.52 5.68 12.8 4.8 12.8ZM0 0V1.6H1.6L4.48 7.672L3.4 9.632C3.272 9.856 3.2 10.12 3.2 10.4C3.2 11.28 3.92 12 4.8 12H14.4V10.4H5.136C5.024 10.4 4.936 10.312 4.936 10.2L4.96 10.104L5.68 8.8H11.64C12.24 8.8 12.768 8.472 13.04 7.976L15.904 2.784C15.968 2.672 16 2.536 16 2.4C16 1.96 15.64 1.6 15.2 1.6H3.368L2.616 0H0ZM12.8 12.8C11.92 12.8 11.208 13.52 11.208 14.4C11.208 15.28 11.92 16 12.8 16C13.68 16 14.4 15.28 14.4 14.4C14.4 13.52 13.68 12.8 12.8 12.8Z"
+											fill="#A2A2A2" />
+									</svg>
+								</a>
+							</div>
+						</article>
+						<article data-watch class="product">
+							<a target="_blank" class="product__picture-link" href="#">
+								<img class="product__image" src="img/product/product-06.webp" alt="Image"></a>
+							<div class="product__body">
+								<h4 class="product__title"><a class="product__title-link" href="#">Product Name</a></h4>
+								<div class="product__prise">€0.00</div>
+								<a target="_blank" class="product__shop-link" href="#">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M4.8 12.8C3.92 12.8 3.208 13.52 3.208 14.4C3.208 15.28 3.92 16 4.8 16C5.68 16 6.4 15.28 6.4 14.4C6.4 13.52 5.68 12.8 4.8 12.8ZM0 0V1.6H1.6L4.48 7.672L3.4 9.632C3.272 9.856 3.2 10.12 3.2 10.4C3.2 11.28 3.92 12 4.8 12H14.4V10.4H5.136C5.024 10.4 4.936 10.312 4.936 10.2L4.96 10.104L5.68 8.8H11.64C12.24 8.8 12.768 8.472 13.04 7.976L15.904 2.784C15.968 2.672 16 2.536 16 2.4C16 1.96 15.64 1.6 15.2 1.6H3.368L2.616 0H0ZM12.8 12.8C11.92 12.8 11.208 13.52 11.208 14.4C11.208 15.28 11.92 16 12.8 16C13.68 16 14.4 15.28 14.4 14.4C14.4 13.52 13.68 12.8 12.8 12.8Z"
+											fill="#A2A2A2" />
+									</svg>
+								</a>
+							</div>
+						</article>
+						<article data-watch class="product">
+							<a target="_blank" class="product__picture-link" href="#">
+								<img class="product__image" src="img/product/product-07.webp" alt="Image"></a>
+							<div class="product__body">
+								<h4 class="product__title"><a class="product__title-link" href="#">Product Name</a></h4>
+								<div class="product__prise">€0.00</div>
+								<a target="_blank" class="product__shop-link" href="#">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M4.8 12.8C3.92 12.8 3.208 13.52 3.208 14.4C3.208 15.28 3.92 16 4.8 16C5.68 16 6.4 15.28 6.4 14.4C6.4 13.52 5.68 12.8 4.8 12.8ZM0 0V1.6H1.6L4.48 7.672L3.4 9.632C3.272 9.856 3.2 10.12 3.2 10.4C3.2 11.28 3.92 12 4.8 12H14.4V10.4H5.136C5.024 10.4 4.936 10.312 4.936 10.2L4.96 10.104L5.68 8.8H11.64C12.24 8.8 12.768 8.472 13.04 7.976L15.904 2.784C15.968 2.672 16 2.536 16 2.4C16 1.96 15.64 1.6 15.2 1.6H3.368L2.616 0H0ZM12.8 12.8C11.92 12.8 11.208 13.52 11.208 14.4C11.208 15.28 11.92 16 12.8 16C13.68 16 14.4 15.28 14.4 14.4C14.4 13.52 13.68 12.8 12.8 12.8Z"
+											fill="#A2A2A2" />
+									</svg>
+								</a>
+							</div>
+						</article>
+						<article data-watch class="product">
+							<a target="_blank" class="product__picture-link" href="#">
+								<img class="product__image" src="img/product/product-08.webp" alt="Image"></a>
+							<div class="product__body">
+								<h4 class="product__title"><a class="product__title-link" href="#">Product Name</a></h4>
+								<div class="product__prise">€0.00</div>
+								<a target="_blank" class="product__shop-link" href="#">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M4.8 12.8C3.92 12.8 3.208 13.52 3.208 14.4C3.208 15.28 3.92 16 4.8 16C5.68 16 6.4 15.28 6.4 14.4C6.4 13.52 5.68 12.8 4.8 12.8ZM0 0V1.6H1.6L4.48 7.672L3.4 9.632C3.272 9.856 3.2 10.12 3.2 10.4C3.2 11.28 3.92 12 4.8 12H14.4V10.4H5.136C5.024 10.4 4.936 10.312 4.936 10.2L4.96 10.104L5.68 8.8H11.64C12.24 8.8 12.768 8.472 13.04 7.976L15.904 2.784C15.968 2.672 16 2.536 16 2.4C16 1.96 15.64 1.6 15.2 1.6H3.368L2.616 0H0ZM12.8 12.8C11.92 12.8 11.208 13.52 11.208 14.4C11.208 15.28 11.92 16 12.8 16C13.68 16 14.4 15.28 14.4 14.4C14.4 13.52 13.68 12.8 12.8 12.8Z"
+											fill="#A2A2A2" />
+									</svg>
+								</a>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<h2 data-watch class="footer__title">Request More Information</h2>
+					<div data-watch class="footer__text">
+						<p>If you have any questions about our products, please, don't hesitate to contact us. One of
+							our
+							consultant will reach
+							back to you quickly.</p>
+					</div>
+					<a data-watch target="_blank" class="footer__link batton" href="#">GET IN TOUCH</a>
+					<div data-watch class="footer__copirat">
+						© 2019 House Decor, LLC
+					</div>
+				</div>
+				<div data-watch class="footer__bottom">
+					<img class="footer__logo logo" src="img/logo.svg" alt="Image">
+					<div class="footer__action">
+						<a class="footer__link-social footer__link-social--linkid" target="_blank" href="#">
+							<img src="img/icon/social/linkid.svg" alt="Image">
+						</a>
+						<a class="footer__link-social footer__link-social--facebuk" target="_blank" href="#">
+							<img src="img/icon/social/fb.svg" alt="Image">
+						</a>
+						<a class="footer__link-social footer__link-social--insta" target="_blank" href="#">
+							<img src="img/icon/social/insta.svg" alt="Image">
+						</a>
+						<a class="footer__link-social footer__link-social--youtube" target="_blank" href="#">
+							<img src="img/icon/social/youtube.svg" alt="Image">
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- Документація: https://template.fls.guru/template-docs/modul-preloader.html -->
+	<div id="fls-preloader">
+		<!-- Скріпт прелоадера -->
+		<script>
+			function preloader() {
+				const preloaderImages = document.querySelector('[data-preloader]') ? document.querySelectorAll('[data-preloader] img') : document.querySelectorAll('img');
+				const preloaderContainer = document.querySelector('#fls-preloader');
+				if (preloaderImages.length) {
+					const preloaderStyleTemplate = `
+				<style>
+ * {
+            padding: 0;
+            margin: 0;
+            border: 0;
+            box-sizing: border-box;
+        }
+
+    
+
+        /* Контейнер сайта */
+        .site-wrapper {
+            width: 100%;
+            min-height: 200vh; /* Делаем сайт длиннее для скролла */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transform: scale(0);
+            opacity: 0;
+            transition: transform 1.2s ease-out, opacity 1.2s ease-out;
+        }
+
+        /* Прелоадер */
+        .fls-preloader {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            transition: opacity 2.6s ease-out, visibility 2.6s ease-out;
+        }
+
+        .fls-preloader__body {
+            text-align: center;
+        }
+
+        /* Лоадер (процент) */
+        .fls-preloader__counter {
+            font-size: 4rem;
+            font-weight: 600;
+            color: white;
+        }
+
+        /* Прогресс-бар */
+        .fls-preloader__line {
+            width: 300px;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 3px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .fls-preloader__line span {
+            display: block;
+            height: 100%;
+            width: 0;
+            background: #00ffcc;
+            transition: width 0.2s ease;
+        }
+
+        /* Когда загрузка завершена */
+        .loaded .fls-preloader {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .loaded .site-wrapper {
+            transform: scale(1);
+            opacity: 1;
+            transition: transform 2.5s cubic-bezier(0.4, 0, 0.2, 1), opacity 2.2s ease-out;
+        }
+
+        /* Разрешаем скролл после загрузки */
+        .loaded {
+            overflow: auto;
+        }
+				</style>`;
+
+					document.head.insertAdjacentHTML("beforeend", preloaderStyleTemplate);
+
+					const preloaderTemplate = `
+					<div class="fls-preloader">
+						<div class="fls-preloader__body">
+							<div class="fls-preloader__counter">0%</div>
+							<div class="fls-preloader__line"><span></span></div>
+						</div>
+					</div>`;
+					document.body.insertAdjacentHTML("beforeend", preloaderTemplate);
+
+					const
+						preloader = document.querySelector('.fls-preloader'),
+						showPecentLoad = document.querySelector('.fls-preloader__counter'),
+						showLineLoad = document.querySelector('.fls-preloader__line span'),
+						htmlDocument = document.documentElement;
+
+					let imagesLoadedCount = counter = progress = 0;
+
+					htmlDocument.classList.add('loading');
+					htmlDocument.classList.add('lock');
+
+					preloaderImages.forEach(preloaderImage => {
+						const imgClone = document.createElement('img');
+						if (imgClone) {
+							imgClone.onload = imageLoaded;
+							imgClone.onerror = imageLoaded;
+							preloaderImage.dataset.src ? imgClone.src = preloaderImage.dataset.src : imgClone.src = preloaderImage.src;
+						}
+					});
+
+					function setValueProgress(progress) {
+						showPecentLoad ? showPecentLoad.innerText = `${progress}%` : null;
+						showLineLoad ? showLineLoad.style.width = `${progress}%` : null;
+					}
+					showPecentLoad ? setValueProgress(progress) : null;
+
+					function imageLoaded() {
+						imagesLoadedCount++;
+						progress = Math.round((100 / preloaderImages.length) * imagesLoadedCount);
+						const intervalId = setInterval(() => {
+							counter >= progress ? clearInterval(intervalId) : setValueProgress(++counter);
+							counter >= 100 ? addLoadedClass() : null;
+						}, 10);
+					}
+
+					function addLoadedClass() {
+						htmlDocument.classList.add('loaded');
+						htmlDocument.classList.remove('lock');
+						htmlDocument.classList.remove('loading');
+						setInterval(() => {
+							preloader.remove();
+							preloaderContainer.remove();
+						}, 500);
+					}
+				} else {
+					preloaderContainer.remove();
+				}
+			}
+			preloader();
+		</script>
+	</div>
+	<script src="js/app.min.js?_v=20250203232331"></script>
+</body>
+
+</html>
