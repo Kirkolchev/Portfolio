@@ -385,7 +385,7 @@ h6 {
 }
 .hero__batton._watcher-view {
   opacity: 1;
-  transition-delay: transform .1s;
+  transition-delay:  1s;
   -webkit-transform: translateX(0);
   transform: translateX(0)
 }
