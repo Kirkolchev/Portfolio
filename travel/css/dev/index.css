@@ -525,7 +525,7 @@ body {
   color: #4f4f53;
 }
 
-.page_plans {
+.page__plans {
   color: #000;
   text-align: center;
 }
@@ -825,7 +825,7 @@ body {
   .list-platform__some-text {
     font-size: 1rem;
   }
-  .page_plans {
+  .page__plans {
     margin-bottom: 10rem;
   }
   .item-plans__title {
@@ -923,7 +923,7 @@ body {
   .list-platform__some-text {
     font-size: clamp( 0.875rem , 0.83104395604375rem  +  0.2197802198vw , 1rem );
   }
-  .page_plans {
+  .page__plans {
     margin-bottom: clamp( 6.25rem , 4.93131868131875rem  +  6.5934065934vw , 10rem );
   }
   .item-plans__title {
@@ -1027,7 +1027,7 @@ body {
   .list-platform__some-text {
     font-size: 0.875rem;
   }
-  .page_plans {
+  .page__plans {
     margin-bottom: 6.25rem;
   }
   .item-plans__title {
